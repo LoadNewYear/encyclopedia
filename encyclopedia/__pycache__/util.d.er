@@ -1,0 +1,10 @@
+##[pylyzer] failed /home/loadnewyear/Documents/code/cs50/wiki/encyclopedia/util.py 1581189911 1066
+.re: Never
+
+.___v_desugar_1: Never
+.ContentFile: {<failure>}
+.___v_desugar_2: Never
+.default_storage: Never
+.list_entries: () -> List(Never, _: Nat)
+.save_entry: (title: Obj, content: Obj) -> Never
+.get_entry: (title: Obj) -> Never

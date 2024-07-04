@@ -1,0 +1,1 @@
+<p>CSS is a cool language used to define styles for a webpage but it is also sometimes used to style mobile apps, it has many libraries such as bootstrap. Through libraries like that, it is possible to create a website without writing a single line of CSS yourself. For example, this website.</p>

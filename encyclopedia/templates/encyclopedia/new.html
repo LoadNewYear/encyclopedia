@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Create new Entry
+{% endblock %}
+
+{% block body %}
+	{% if should_warn %}
+		<div class="alert alert-danger" role="alert">An entry withthis name already exists!</div>
+	{% endif %}
+	<form action="new" method="post">
+		{% csrf_token %}
+		{{ form }}
+		<br>
+		<input class="btn btn-primary" type=submit name=submit>
+	</form>
+{% endblock %}
